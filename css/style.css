@@ -265,17 +265,26 @@ a:hover, a:active, a:focus {
 }
 
 #services ul {
-	text-align: center;
-	margin: 0 auto;
-	padding: 0;
+	text-align: justify;
+	margin: 25px auto 0 auto;
+	padding: 10px 0 0 0;
+	border-top: 3px solid #009e4c;
 }
 
 #services ul li {
 	list-style-type: none;
 	font-size: 18px;
 	padding: 5px 0;
+	padding-left: 2em;
 	color: #424242;
 	font-weight: 300;
+}
+
+#services .title {
+	padding-left: 0;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
 }
 
 #location .container {
@@ -405,28 +414,28 @@ a:hover, a:active, a:focus {
 	border: 0;
 }
 
-#infofooter {
+.infofooter {
 	background-color: #424242;
 	margin: 0 auto;
 	text-align: center;
 }
 
-#infofooter .container {
+.infofooter .container {
 	margin: 0 auto !important;
 	background-color: transparent;
 	padding: 15px 0 !important;
 }
 
-#infofooter [class*="col-"] p {
+.infofooter [class*="col-"] p {
 	color: white;
 	font-size: 14px;
 	font-weight: 100;
 	text-align: center;
 }
 
-#infofooter a,
-#infofooter a:hover,
-#infofooter a:focus,
-#infofooter a:active {
+.infofooter a,
+.infofooter a:hover,
+.infofooter a:focus,
+.infofooter a:active {
 	color: #86e1b2 !important;
 }

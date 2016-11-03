@@ -188,7 +188,7 @@ var setNewImg = function() {
 $('#right').on('click', function() {
 	lasti = i;
 	++i;
-	if (i > 3) i = 1;
+	if (i > 10) i = 1;
 	
 	setNewImg();
 });
