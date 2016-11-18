@@ -6,6 +6,10 @@ body {
 	background-size: 100%;
 	color: #888888 !important;
 	overflow-x: hidden;
+	
+	@media (max-width: @iphone-screen) {
+        background-attachment: scroll;
+    }
 }
 
 section {
