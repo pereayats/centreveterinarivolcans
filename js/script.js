@@ -48,7 +48,7 @@ $('.icon').mouseenter(function() {
 
 /* NEWS DISPLAYER */
 
-feednami.load("http://feed.arturogoga.com/", function(result) {
+feednami.load("http://blog.centreveterinarivolcans.com/feed/", function(result) {
     if (result.error) {
         $('#newscontent').find('.container').append('<div class="row"><div class="col-md-12"><h1>Encara no hi ha notícies</h1></div></div>');
         $('#morenews').hide();
