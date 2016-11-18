@@ -350,6 +350,10 @@ a:hover, a:active, a:focus {
 	width: auto !important;
 }
 
+#contactinformation .col-md-6 {
+	padding-bottom: 5px;
+}
+
 #contactform .container {
 	padding: 0 !important;
 	width: auto !important;
