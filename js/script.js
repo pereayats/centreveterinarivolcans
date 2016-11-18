@@ -61,7 +61,7 @@ feednami.load("http://blog.centreveterinarivolcans.com/feed/", function(result) 
         	for (i = 0; (i < entries.length) && (i < 4); ++i) {
         		if (i%2 == 0) content = '<div class="row">';
         		content += '<div class="col-md-6">'+'<a href="'+entries[i].link+'" target="_blank">';
-        		content += '<h4>'+entries[i].title+'</h4><br>'+entries[i].summary+'</a></div>';
+        		content += '<h4>'+entries[i].title+'</h4><br><p>'+entries[i].summary+'</p></a></div>';
         		if (i%2 == 1) {
         			content += '</div><br>'
         			$('#newscontent').find('.container').append(content);
