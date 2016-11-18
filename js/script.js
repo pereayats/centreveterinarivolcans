@@ -83,7 +83,7 @@ feednami.load("http://blog.centreveterinarivolcans.com/feed/", function(result) 
 
 $('#morenews').on('click', function(event) {
 	event.preventDefault();
-	feednami.load("http://feed.arturogoga.com/", function(result) {
+	feednami.load("http://www.pereayats.com/centreveterinarivolcans/", function(result) {
     	if (result.error) {
         	$('#morenews').hide();	
     	}
