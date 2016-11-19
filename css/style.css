@@ -8,7 +8,7 @@ body {
 	overflow-x: hidden;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
   body {
   	background: url("../img/about.png") no-repeat fixed center center !important;
     background-size: 100%;
