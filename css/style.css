@@ -10,12 +10,10 @@ body {
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
   body {
-  	background: url("../img/background_mobile.png") no-repeat center center fixed !important;
+  	background: url("../img/background_mobile.png") no-repeat center center !important;
     background-size: cover !important;
     height: 100% !important;
-  	overflow: scroll !important;
-	-webkit-overflow-scrolling: touch !important;
-	box-sizing: content-box !important;
+  	width: 100% !important;
   }
 }
 
