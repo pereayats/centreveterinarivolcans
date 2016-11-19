@@ -12,7 +12,8 @@ body {
   body {
   	background: url("../img/background_mobile.png") no-repeat center center fixed !important;
     background-size: cover !important;
-    
+    height: 100% !important;
+  	overflow: auto !important; 
   }
 }
 
