@@ -10,7 +10,8 @@ body {
 
 @media (max-width: 480px) {
   body {
-    background-size: contain;
+  	background: url("../img/background_mobile.png") no-repeat fixed center;
+    background-size: cover;
   }
 }
 
