@@ -10,7 +10,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-  	background: url("../img/background_mobile.png") no-repeat fixed center center !important;
+  	background: url("../img/about.png") no-repeat fixed center center !important;
     background-size: 100%;
   }
 }
