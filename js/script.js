@@ -48,7 +48,7 @@ $('.icon').mouseenter(function() {
 
 /* NEWS DISPLAYER */
 
-feednami.load("http://blog.centreveterinarivolcans.com/feed/", function(result) {
+/*feednami.load("http://blog.centreveterinarivolcans.com/feed/", function(result) {
     if (result.error) {
         $('#newscontent').find('.container').append('<div class="row"><div class="col-md-12"><h1>Encara no hi ha notícies</h1></div></div>');
         $('#morenews').hide();
@@ -111,7 +111,7 @@ $('#morenews').on('click', function(event) {
         	}	
     	}
 	});
-});
+});*/
 
 /* END NEWS DISPLAYER */
 
@@ -129,7 +129,7 @@ $('#my-map-display').on('click',function (e) {
 
 /* FORM VALIDATION */
 
-$("#contactform").validate({
+/*$("#contactform").validate({
 	rules: {
 	    name: "required",
 	    email: {
@@ -170,7 +170,7 @@ $("#contactform").validate({
             }
         });
 	}
-});
+});*/
 
 /* END FORM VALIDATION */
 
